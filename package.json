@@ -1,0 +1,23 @@
+{
+  "name": "GraphQL_File_Upload",
+  "version": "1.0.0",
+  "description": "This is a little project that helps me learn how to upload files in React with ApolloGraphQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiEr0212/GraphQL_File_Upload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiEr0212/GraphQL_File_Upload/issues"
+  },
+  "homepage": "https://github.com/SiEr0212/GraphQL_File_Upload#readme",
+  "dependencies": {
+    "apollo-server": "^2.21.0"
+  }
+}
