@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/SiEr0212/GraphQL_File_Upload#readme",
   "dependencies": {
-    "apollo-server": "^2.21.0"
+    "@playlyfe/gql": "^2.6.2",
+    "apollo-server": "^2.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0"
   }
 }
