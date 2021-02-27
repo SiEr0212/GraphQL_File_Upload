@@ -1,6 +1,5 @@
 import React from "react";
 
-import { introspectionQuery } from 'graphql';
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 import { createUploadLink } from "apollo-upload-client";
 
