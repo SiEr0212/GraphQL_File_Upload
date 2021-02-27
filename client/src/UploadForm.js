@@ -20,7 +20,7 @@ export default function UploadForm() {
    const handleFileChange = e => {
        const file = e.target.file[0]
        if(!file) return 
-       uploadFile({ variables: { file: }})
+       uploadFile({ variables: { file }})
    }
 
   return (
