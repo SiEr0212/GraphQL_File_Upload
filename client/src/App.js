@@ -1,14 +1,14 @@
 import React from "react";
 
+import { introspectionQuery } from 'graphql';
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 import { createUploadLink } from "apollo-upload-client";
-import { ApolloError } from "@apollo/client/core";
 
-impot UploadForm from  './UploadForm';
+import UploadForm from "./UploadForm";
 
 const client = new ApolloClient({
   link: createUploadLink({
-    uri: "http://localhost4000",
+    uri: "http://localhost:4000/",
   }),
   cache: new InMemoryCache(),
 });
@@ -16,7 +16,7 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <UploadForm></UploadForm>
+      <UploadForm />
     </ApolloProvider>
   );
 }
